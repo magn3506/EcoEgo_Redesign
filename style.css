@@ -31,7 +31,7 @@ nav {
 .nav_con {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 
 }
@@ -40,7 +40,6 @@ nav {
 
 
 
-    padding: 2px 0px;
 
 }
 
@@ -71,7 +70,6 @@ nav {
 
     font-size: 1em;
     font-family: 'Josefin Sans', sans-serif;
-
     border: none;
     padding: 5px 10px;
 
@@ -91,11 +89,13 @@ nav {
 
     background-color: white;
 
-    width: 200px;
+    width: 150px;
 
 
 
     font-family: 'Josefin Sans', sans-serif;
+
+    z-index: -1;
 
 
 
@@ -106,7 +106,9 @@ nav {
     color: black;
     text-decoration: none;
     text-align: left;
-    float: left;
+   float: left;
+    overflow: hidden;
+
     display: black;
 
     background-color: white;
@@ -117,11 +119,15 @@ nav {
 
 
 
+
+
 }
 
 .dropdown_content a:hover {
     background-color: black;
     color: white;
+
+
 
 
 }
