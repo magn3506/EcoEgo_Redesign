@@ -1,0 +1,35 @@
+.top_image_item img {
+
+    width: 400px;
+    height: 400px;
+}
+
+.sectionwrapper_con {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.column_item {
+
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+.column_content_con {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+
+h4 {
+
+    font-family: 'Shadows Into Light';
+    font-size: 1.9em;
+
+}
