@@ -19,14 +19,18 @@ body {
     margin: 0;
 }
 
+
+/*nav bar*/
+
+nav * { box-sizing: border-box;}
+
 nav {
     background-color: white;
 
 }
 
-/*nav bar*/
 
-* { box-sizing: border-box;}
+
 
 .nav_con {
 
@@ -71,7 +75,9 @@ nav {
     font-size: 1em;
     font-family: 'Josefin Sans', sans-serif;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 15px;
+
+
 
 
 
@@ -93,9 +99,19 @@ nav {
 
 
 
+
     font-family: 'Josefin Sans', sans-serif;
 
     z-index: -1;
+
+     border-radius: 0px 0px 2px 2px;
+
+
+
+
+
+
+
 
 
 
@@ -111,11 +127,12 @@ nav {
 
     display: black;
 
-    background-color: white;
 
 
     padding: 10px 10px;
     width: 100%;
+
+
 
 
 
@@ -126,6 +143,7 @@ nav {
 .dropdown_content a:hover {
     background-color: black;
     color: white;
+
 
 
 
