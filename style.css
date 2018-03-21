@@ -99,7 +99,7 @@ nav {
 
     font-family: 'Josefin Sans', sans-serif;
 
-    z-index: -1;
+    z-index: 1;
 
     border-radius: 0px 0px 2px 2px;
 
@@ -155,6 +155,8 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    z-index: -1;
 }
 
 .top_image_item:hover .overlay {
