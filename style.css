@@ -28,6 +28,19 @@ box-sizing: border-box;
 
 /*Splash*/
 
+.splash{
+    background-image: url(splashbillede/ecoego_splash_baggrundv2.png);
+
+    width: 100%;
+
+
+
+}
+
+.logo img {
+
+    width: 20%;
+}
 
 
 /*nav bar*/
@@ -223,7 +236,6 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
 
