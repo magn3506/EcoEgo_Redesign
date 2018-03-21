@@ -15,19 +15,43 @@ p {
 
 
 body {
-    background-color: aquamarine;
+    background-color: rgba(195, 217, 24, 0.45);
     margin: 0;
 }
+
+* {
+box-sizing: border-box;
+}
+
+
+/*Splash*/
+
+.splash{
+    background-image: url("nature.jpg");
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+
+}
+
+
 
 
 /*nav bar*/
 
-nav * {
+ * {
     box-sizing: border-box;
 }
 
 nav {
     background-color: white;
+    margin: 0px;
+
+
+
+
 
 }
 
@@ -123,8 +147,6 @@ nav {
 .dropdown_content a:hover {
     background-color: black;
     color: white;
-
-
 
 
 }
