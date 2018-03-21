@@ -1,77 +1,101 @@
-
 h3 {
     font-family: 'Josefin Sans', sans-serif;
 
 }
 
-h4{ font-family: 'Open Sans', sans-serif;
+h4 {
+    font-family: 'Open Sans', sans-serif;
 
 
 }
 
-p{ font-family: 'Open Sans', sans-serif;}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
 
 
-body{
+body {
     background-color: aquamarine;
+    margin: 0;
 }
 
-nav{
+nav {
     background-color: white;
 
 }
 
-.nav_con{
+.nav_con {
 
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-
-
+    ´
 }
 
-.nav_item{
+.nav_item {}
 
-
-}
-
-.dropdown_con{
+.dropdown_con {
     display: flex;
     flex-direction: row;
 
 }
-
-.dropdown_con:hover .dropdown_item{
-    display: block;
-    flex-wrap: wrap;
-}
-
 
 .dropdown_item {
 
 
 }
 
-.dropbtn{
+.dropdown_item:hover .dropdown_content {
+    display: block;
+    flex-wrap: wrap;
+}
+
+
+
+
+.dropbtn {
+    background-color: white;
+
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+
+    border: none;
+    padding: 5px 10px;
+
+
 
 
 }
 
-.dropdown_content{
+.dropdown_content {
     display: none;
+    position: absolute;
+
+
+    background-color: white;
+
+
+    font-family: 'Josefin Sans', sans-serif;
+
+
 
 
 }
 
 
 
+.dropdown_content a{
+    color: black;
+    text-decoration: none;
+    display: black;
 
 
+    font-size: 1em;
+}
 
+.dropdown_content a:hover {
+    background-color: red;
 
+    padding: 10px 10px;
 
-
-
-
-
+}
