@@ -78,8 +78,6 @@ nav {
 }
 
 
-
-
 .dropbtn {
 
     background-color: white;
@@ -167,8 +165,6 @@ border-radius: 2%;
 
 }
 
-
-
 .boks_wrapper_item{
 
     flex-basis: 100px;
@@ -178,13 +174,6 @@ border-radius: 2%;
     box-shadow: 5px 5px 30px rgba(13, 0, 0, 0.57);
 
     background-color: rgba(11, 77, 55, 0.24);
-
-
-
-
-
-
-
 }
 
 .boks_wrapper_item h2{
@@ -200,9 +189,32 @@ color: white;
 }
 
 
-
 .boks_wrapper_item:hover {
     background-color: rgba(234, 125, 32, 0.84);
+
+
+}
+
+
+
+/*youtube*/
+
+.youtube_con{
+
+    display: flex;
+    justify-content: center;
+
+    background-color:rgba(3, 41, 25, 0.33);
+    padding: 50px 0px;
+
+
+
+}
+
+
+.youtube_item{
+
+    text-align: center;
 
 
 
@@ -210,14 +222,18 @@ color: white;
 
 
 
+iframe{
+
+    border-radius: 20px;
+    border: solid rgba(255, 1, 1, 0.35) 10px ;
+    box-shadow: 10px 1px 80px rgba(0, 0, 0, 0.51);
+
+    width: 800px;
+
+    text-align: cen
 
 
-
-
-
-
-
-
+}
 
 
 
